@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/puzzleStart">
+
+    <fragment
+        android:id="@+id/puzzleTest"
+        android:name="com.example.puzzle.PuzzleGame"
+        android:label="fragment_puzzel_test"
+        tools:layout="@layout/fragment_puzzle_game" >
+        <action
+            android:id="@+id/navigateToSecondFragment"
+            app:destination="@id/puzzleStart" />
+    </fragment>
+    <fragment
+        android:id="@+id/puzzleStart"
+        android:name="com.example.puzzle.PuzzleStart"
+        android:label="fragment_puzzle_start"
+        tools:layout="@layout/fragment_puzzle_start" >
+        <action
+            android:id="@+id/action_puzzleStart_to_puzzleTest"
+            app:destination="@id/puzzleTest" />
+        <action
+            android:id="@+id/action_puzzleStart_to_imageIdProvider"
+            app:destination="@id/imageIdProvider" />
+    </fragment>
+
+    <fragment android:id="@+id/imageIdProvider">
+        <argument
+            android:name="myArg"
+            app:argType="integer"
+            android:defaultValue="0"/>
+        <action
+            android:id="@+id/action_imageIdProvider_to_puzzleTest"
+            app:destination="@id/puzzleTest" />
+    </fragment>
+
+
+</navigation>

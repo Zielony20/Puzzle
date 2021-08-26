@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.puzzle.DraggableCoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentCoordinatorLayout"
+    android:layout_width="match_parent"
+    android:background="@color/orange"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="-280dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-280dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-70dp"
+            android:layout_marginRight="-210dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-280dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginRight="-140dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-280dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginRight="-70dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-280dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-280dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="-280dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginBottom="-210dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-70dp"
+            android:layout_marginRight="-210dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginBottom="-210dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginRight="-140dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginBottom="-210dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginRight="-70dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginBottom="-210dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="-70dp"
+            android:layout_marginBottom="-210dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!--///////////////////////////////////////////////////////////-->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="-280dp"
+            android:layout_marginTop="-140dp"
+            android:layout_marginBottom="-140dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-70dp"
+            android:layout_marginRight="-210dp"
+            android:layout_marginTop="-140dp"
+            android:layout_marginBottom="-140dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginRight="-140dp"
+            android:layout_marginTop="-140dp"
+            android:layout_marginBottom="-140dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginRight="-70dp"
+            android:layout_marginTop="-140dp"
+            android:layout_marginBottom="-140dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="-140dp"
+            android:layout_marginBottom="-140dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!--//////////////////////////////////////////////////////////-->
+    <!-- //////////////////////////////////////////////////////////////////// -->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="-280dp"
+            android:layout_marginTop="-210dp"
+            android:layout_marginBottom="-70dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-70dp"
+            android:layout_marginRight="-210dp"
+            android:layout_marginTop="-210dp"
+            android:layout_marginBottom="-70dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginRight="-140dp"
+            android:layout_marginTop="-210dp"
+            android:layout_marginBottom="-70dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginRight="-70dp"
+            android:layout_marginTop="-210dp"
+            android:layout_marginBottom="-70dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="-210dp"
+            android:layout_marginBottom="-70dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!--///////////////////////////////////////////////////////////-->
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="-280dp"
+            android:layout_marginTop="-280dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-70dp"
+            android:layout_marginRight="-210dp"
+            android:layout_marginTop="-280dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginRight="-140dp"
+            android:layout_marginTop="-280dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginRight="-70dp"
+            android:layout_marginTop="-280dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/draggableCard25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="-280dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/puzzle1" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!--//////////////////////////////////////////////////////////-->
+
+</com.example.puzzle.DraggableCoordinatorLayout>
